@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GET_OTP_FROM_SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9184484d-17bf-43d9-9f3c-812fd5807ee3</testCaseGuid>
+</TestCaseEntity>

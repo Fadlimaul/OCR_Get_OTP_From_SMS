@@ -1,0 +1,80 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.15.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m50224[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:50224/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://172.16.0.2:50224/wd/hub
+	http://10.168.64.158:50224/wd/hub
+	http://192.168.122.195:50224/wd/hub
+	http://127.0.0.1:50224/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.0.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@8.3.0 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m21 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\yozar\\Downloads\\AndroidMessages.apk","appium:appActivity":"com.google.android.apps.messaging.ui.ConversationListActivity","appium:appPackage":"com.google.android.apps.messaging","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceId":"","appium:deviceName":"RR8M90EYN7Z","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"Android","appium:platformVersion":"11","appium:systemPort":50273,"appium:udid":"RR8M90EYN7Z","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\yozar\\Downloads\\AndroidMessages.apk","appium:appActivity":"com.google.android.apps.messaging.ui.ConversationListActivity","appium:appPackage":"com.google.android.apps.messaging","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceId":"","appium:deviceName":"RR8M90EYN7Z","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":t...[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=Android' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\yozar\.appium\node_modules\appium-uiautomator2-driver
+[38;5;31m[AppiumDriver@8f27][0m Appium v2.15.0 creating new AndroidUiautomator2Driver (v4.0.0) session
+[38;5;31m[AppiumDriver@8f27][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;31m[AppiumDriver@8f27][0m Appium's BaseDriver version is 9.15.0
+[38;5;31m[AppiumDriver@8f27][0m AndroidUiautomator2Driver's BaseDriver version is 9.15.0
+[38;5;-15m[AndroidUiautomator2Driver@579c][0m The following provided capabilities were not recognized by this driver:
+[38;5;-15m[AndroidUiautomator2Driver@579c][0m   deviceId
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Session created with session id: 36be995b-1672-4d2a-a17e-a939f2bb2f2f
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\yozar\AppData\Local\Android\Sdk' (newest first):
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m     C:\Users\yozar\AppData\Local\Android\Sdk\build-tools\35.0.1
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\yozar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Retrieving device list
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Using device: RR8M90EYN7Z
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\yozar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;25m[36be995b][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\yozar\Downloads\AndroidMessages.apk'
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Relaxing hidden api policy
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\yozar\AppData\Local\Android\Sdk\build-tools\35.0.1\aapt2.exe'
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\yozar\AppData\Local\Android\Sdk\build-tools\35.0.1\lib\apksigner.jar'
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Server packages are not going to be (re)installed
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m 'C:\Users\yozar\Downloads\AndroidMessages.apk' is signed with a non-default certificate
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m The application at 'C:\Users\yozar\Downloads\AndroidMessages.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;25m[36be995b][0m[38;5;229m[ADB][0m The installation of 'AndroidMessages.apk' took 18592ms
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Starting UIAutomator2 server 7.2.3
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Using UIAutomator2 server from 'C:\Users\yozar\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.2.3.apk' and test from 'C:\Users\yozar\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m socket hang up
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m socket hang up
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m socket hang up
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m socket hang up
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m socket hang up
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Determined the downstream protocol as 'W3C'
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Screen already unlocked, doing nothing
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Starting 'com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity' and waiting for 'com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity'
+[38;5;25m[36be995b][0m[38;5;31m[AppiumDriver@8f27][0m New AndroidUiautomator2Driver session created successfully, session 36be995b-1672-4d2a-a17e-a939f2bb2f2f added to master session list
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m36403 ms - 1407[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 111[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/timeouts [39m[32m200[39m [90m8 ms - 14[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/source[39m [90m{}[39m
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Replacing sessionId 54b5b27d-9dc2-4014-ab52-4c983a5d0918 with 36be995b-1672-4d2a-a17e-a939f2bb2f2f
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/source [39m[32m200[39m [90m235 ms - 7859[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/screenshot[39m [90m{}[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/screenshot [39m[32m200[39m [90m880 ms - 142004[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/source[39m [90m{}[39m
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Replacing sessionId 54b5b27d-9dc2-4014-ab52-4c983a5d0918 with 36be995b-1672-4d2a-a17e-a939f2bb2f2f
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/source [39m[32m200[39m [90m896 ms - 22762[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/screenshot[39m [90m{}[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f/screenshot [39m[32m200[39m [90m1364 ms - 57976[39m [90m[39m
+[38;5;25m[36be995b][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/36be995b-1672-4d2a-a17e-a939f2bb2f2f[39m [90m{}[39m
+[38;5;25m[36be995b][0m[38;5;31m[AppiumDriver@8f27][0m Removing session 36be995b-1672-4d2a-a17e-a939f2bb2f2f from our master session list
+[38;5;25m[36be995b][0m[38;5;-15m[AndroidUiautomator2Driver@579c][0m Restoring hidden api policy to the device default configuration
